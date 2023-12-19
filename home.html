@@ -4,24 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- CDN link Google Font Families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css??family=Concert+Dne&family=Poppins&Family=Roboto ">
+    <style>
+        body{
+            background-image: url(Background\ image\ 1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    #Summery li{
+            list-style-type: none;
+        }
+        #Summery li::before{
+            content: "👉";
+        }
+        /* id selector */
+        #GIT{
+        text-decoration: underline;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        }
+    span{
+        color: rgb(8, 15, 107);
+        font-size: medium;
+        font-weight: bold;
+
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+    ul li{
+        list-style-type: circle;
+    }
+    .mainHeading{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    </style>
 </head>
 <body>
-    <fieldset>
-        <legend><h2>Professional Summery</h2></legend>
-        <ul type="square">
-            <li>Having 1 years of experiance in developing single pfage web Application using Angular 8,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li><br>
-            <li>Experiance on Working with version control system - GIT and GitHub</li><br>
-            <li>Experiance working with JIRA for user stories and bug tracking</li><br>
-            <li>Strong Debugging & Troubleshooting code experiance using Chrome Devloper Tool</li>br
-            <li>Working exposure on ID's like VS code and Notepad++</li><br>
-            <li>Good working experiance under Agile methodologies environment</li><br>
-            <li>Experiance in using Chrome Developer Tool or debugging and Troubleshooting the code</li><br>
-            <li>Knowlege of NodeJS</li><br>
-            <li>Ability to work with people at all levels in the program</li><br>
-            <li>Knowlege o Mongodb and expressJS   </li><br>
+    <!--Header Section  -->
+    <header>
+    <span>Name: Kiran Bhokare &nbsp;&nbsp;&nbsp;&nbsp;Mobile: 7666 163 274&nbsp;&nbsp; &nbsp;&nbsp;E-mail: kiranbhokare13@gmail.com </span>
+    </header>
+ <br>
+ <hr>
+    <!-- Navigation -->
+<nav>
+    <a href="home.html" target="Mainframe">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="techstack.html">Tech Sctack</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="project.html" target="Mainframe">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="education.html" target="Mainframe">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Others.html" target="Mainframe">Others</a>
+</nav>
+<hr>
+
+   <legend><h2 style="color:red;background-color: darkslategrey;">Career Objectives</h2></legend>
+   <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
+    
+        <legend><h2 style="color: red;background-color: darkslategray;">Professional Summery</h2></legend>
+        <ul id="Summery">
+            <li>Having 1 years of experiance in developing single pfage web Application using <span>Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
+            <li id="GIT"style="color: blueviolet;background-color: chartreuse;">Experiance on Working with version control system - GIT and GitHub</li>
+            <li>Experiance working with JIRA for user stories and bug tracking</li>
+            <li>Strong Debugging & Troubleshooting code experiance using Chrome Devloper Tool</li>
+            <li>Working exposure on ID's like VS code and Notepad++</li>
+            <li>Good working experiance under Agile methodologies environment</li>
+            <li>Experiance in using Chrome Developer Tool or debugging and Troubleshooting the code</li>
+            <li>Knowlege of NodeJS</li>
+            <li>Ability to work with people at all levels in the program</li>
+            <li>Knowlege o Mongodb and expressJS   </li>
             <li>Knowlege of Mongodb and expressJS  </li>
         </ul>
-      </fieldset> 
-      
 </body>
 </html>
